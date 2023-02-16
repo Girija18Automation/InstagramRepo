@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-15T14:39:40 IST" name="Suite1234" finished-at="2023-02-15T14:40:28 IST" duration-ms="48087">
+    <groups>
+    </groups>
+    <test started-at="2023-02-15T14:39:40 IST" name="chromeTest" finished-at="2023-02-15T14:40:20 IST" duration-ms="39805">
+      <class name="TestNGPack.InstagramTestNGPack2">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNGPack.InstagramTestNGPack2@769e7ee8]" started-at="2023-02-15T14:39:40 IST" name="openBrowser" finished-at="2023-02-15T14:39:41 IST" duration-ms="1413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openHomePage()[pri:0, instance:TestNGPack.InstagramTestNGPack2@769e7ee8]" started-at="2023-02-15T14:39:41 IST" name="openHomePage" finished-at="2023-02-15T14:39:50 IST" duration-ms="8241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method signature="verifyTerms()[pri:0, instance:TestNGPack.InstagramTestNGPack2@769e7ee8]" started-at="2023-02-15T14:39:50 IST" name="verifyTerms" finished-at="2023-02-15T14:40:08 IST" duration-ms="18304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTerms -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGPack.InstagramTestNGPack2@769e7ee8]" started-at="2023-02-15T14:40:08 IST" name="afterMethod" finished-at="2023-02-15T14:40:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="openHomePage()[pri:0, instance:TestNGPack.InstagramTestNGPack2@769e7ee8]" started-at="2023-02-15T14:40:08 IST" name="openHomePage" finished-at="2023-02-15T14:40:10 IST" duration-ms="2140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method signature="verifyCookiesPolicy()[pri:2, instance:TestNGPack.InstagramTestNGPack2@769e7ee8]" started-at="2023-02-15T14:40:10 IST" name="verifyCookiesPolicy" finished-at="2023-02-15T14:40:20 IST" duration-ms="9682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCookiesPolicy -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGPack.InstagramTestNGPack2@769e7ee8]" started-at="2023-02-15T14:40:20 IST" name="afterMethod" finished-at="2023-02-15T14:40:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGPack.InstagramTestNGPack2@769e7ee8]" started-at="2023-02-15T14:40:20 IST" name="afterTest" finished-at="2023-02-15T14:40:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGPack.InstagramTestNGPack2 -->
+    </test> <!-- chromeTest -->
+    <test started-at="2023-02-15T14:39:40 IST" name="FirefoxTest" finished-at="2023-02-15T14:40:28 IST" duration-ms="48087">
+      <class name="TestNGPack.InstagramTestNGPack2">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNGPack.InstagramTestNGPack2@1534f01b]" started-at="2023-02-15T14:39:40 IST" name="openBrowser" finished-at="2023-02-15T14:39:51 IST" duration-ms="10643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openHomePage()[pri:0, instance:TestNGPack.InstagramTestNGPack2@1534f01b]" started-at="2023-02-15T14:39:51 IST" name="openHomePage" finished-at="2023-02-15T14:39:58 IST" duration-ms="6877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method signature="verifyTerms()[pri:0, instance:TestNGPack.InstagramTestNGPack2@1534f01b]" started-at="2023-02-15T14:39:58 IST" name="verifyTerms" finished-at="2023-02-15T14:40:16 IST" duration-ms="18183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTerms -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGPack.InstagramTestNGPack2@1534f01b]" started-at="2023-02-15T14:40:16 IST" name="afterMethod" finished-at="2023-02-15T14:40:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="openHomePage()[pri:0, instance:TestNGPack.InstagramTestNGPack2@1534f01b]" started-at="2023-02-15T14:40:16 IST" name="openHomePage" finished-at="2023-02-15T14:40:18 IST" duration-ms="2770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method signature="verifyCookiesPolicy()[pri:2, instance:TestNGPack.InstagramTestNGPack2@1534f01b]" started-at="2023-02-15T14:40:18 IST" name="verifyCookiesPolicy" finished-at="2023-02-15T14:40:28 IST" duration-ms="9599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCookiesPolicy -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGPack.InstagramTestNGPack2@1534f01b]" started-at="2023-02-15T14:40:28 IST" name="afterMethod" finished-at="2023-02-15T14:40:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGPack.InstagramTestNGPack2@1534f01b]" started-at="2023-02-15T14:40:28 IST" name="afterTest" finished-at="2023-02-15T14:40:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGPack.InstagramTestNGPack2 -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite1234 -->
+</testng-results>
