@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+<testng-results ignored="2" total="8" passed="4" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-15T14:39:40 IST" name="Suite1234" finished-at="2023-02-15T14:40:28 IST" duration-ms="48087">
+  <suite started-at="2023-02-17T11:24:51 IST" name="Suite1234" finished-at="2023-02-17T11:26:10 IST" duration-ms="78918">
     <groups>
     </groups>
-    <test started-at="2023-02-15T14:39:40 IST" name="chromeTest" finished-at="2023-02-15T14:40:20 IST" duration-ms="39805">
-      <class name="TestNGPack.InstagramTestNGPack2">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNGPack.InstagramTestNGPack2@769e7ee8]" started-at="2023-02-15T14:39:40 IST" name="openBrowser" finished-at="2023-02-15T14:39:41 IST" duration-ms="1413" status="PASS">
+    <test started-at="2023-02-17T11:24:51 IST" name="chromeTest" finished-at="2023-02-17T11:25:28 IST" duration-ms="36526">
+      <class name="TestNGPack.InstagramTestNGPack1">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNGPack.InstagramTestNGPack1@159f197]" started-at="2023-02-17T11:24:51 IST" name="openBrowser" finished-at="2023-02-17T11:24:52 IST" duration-ms="1319" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,39 +18,140 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="openHomePage()[pri:0, instance:TestNGPack.InstagramTestNGPack2@769e7ee8]" started-at="2023-02-15T14:39:41 IST" name="openHomePage" finished-at="2023-02-15T14:39:50 IST" duration-ms="8241" status="PASS">
+        <test-method is-config="true" signature="openBrowser1()[pri:0, instance:TestNGPack.InstagramTestNGPack1@159f197]" started-at="2023-02-17T11:24:54 IST" name="openBrowser1" finished-at="2023-02-17T11:24:54 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser1 -->
+        <test-method is-config="true" signature="homePage()[pri:0, instance:TestNGPack.InstagramTestNGPack1@159f197]" started-at="2023-02-17T11:24:54 IST" name="homePage" finished-at="2023-02-17T11:24:57 IST" duration-ms="2971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method signature="signUpLink()[pri:0, instance:TestNGPack.InstagramTestNGPack1@159f197]" started-at="2023-02-17T11:24:57 IST" name="signUpLink" finished-at="2023-02-17T11:25:08 IST" duration-ms="10626" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[@id='ssfErrorAlert']"}
+  (Session info: chrome=110.0.5481.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN', ip: '192.168.0.100', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.100, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\SHEKHAR\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d679f755489a256ac5024634deb5c48a
+*** Element info: {Using=xpath, value=//p[@id='ssfErrorAlert']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@id='ssfErrorAlert']"}
+  (Session info: chrome=110.0.5481.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN', ip: '192.168.0.100', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.100, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\SHEKHAR\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d679f755489a256ac5024634deb5c48a
+*** Element info: {Using=xpath, value=//p[@id='ssfErrorAlert']}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getText(Unknown Source)
+at POMClasses.SignUpLinkPage.getErrorMessage(SignUpLinkPage.java:132)
+at TestNGPack.InstagramTestNGPack1.signUpLink(InstagramTestNGPack1.java:159)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpLink -->
+        <test-method is-config="true" signature="closeCurrentTab()[pri:0, instance:TestNGPack.InstagramTestNGPack1@159f197]" started-at="2023-02-17T11:25:08 IST" name="closeCurrentTab" finished-at="2023-02-17T11:25:08 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCurrentTab -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNGPack.InstagramTestNGPack1@159f197]" started-at="2023-02-17T11:25:08 IST" name="afterClass" finished-at="2023-02-17T11:25:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGPack.InstagramTestNGPack1@159f197]" started-at="2023-02-17T11:25:28 IST" name="afterTest" finished-at="2023-02-17T11:25:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGPack.InstagramTestNGPack1 -->
+      <class name="TestNGPack.InstagramTestNGPack2">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNGPack.InstagramTestNGPack2@78aab498]" started-at="2023-02-17T11:24:52 IST" name="openBrowser" finished-at="2023-02-17T11:24:54 IST" duration-ms="1639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:TestNGPack.InstagramTestNGPack2@78aab498]" started-at="2023-02-17T11:24:54 IST" name="BeforeClass" finished-at="2023-02-17T11:24:54 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="openHomePage()[pri:0, instance:TestNGPack.InstagramTestNGPack2@78aab498]" started-at="2023-02-17T11:24:54 IST" name="openHomePage" finished-at="2023-02-17T11:24:58 IST" duration-ms="3935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openHomePage -->
-        <test-method signature="verifyTerms()[pri:0, instance:TestNGPack.InstagramTestNGPack2@769e7ee8]" started-at="2023-02-15T14:39:50 IST" name="verifyTerms" finished-at="2023-02-15T14:40:08 IST" duration-ms="18304" status="PASS">
+        <test-method signature="verifyTerms()[pri:0, instance:TestNGPack.InstagramTestNGPack2@78aab498]" started-at="2023-02-17T11:24:58 IST" name="verifyTerms" finished-at="2023-02-17T11:25:16 IST" duration-ms="18158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTerms -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGPack.InstagramTestNGPack2@769e7ee8]" started-at="2023-02-15T14:40:08 IST" name="afterMethod" finished-at="2023-02-15T14:40:08 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="openHomePage()[pri:0, instance:TestNGPack.InstagramTestNGPack2@769e7ee8]" started-at="2023-02-15T14:40:08 IST" name="openHomePage" finished-at="2023-02-15T14:40:10 IST" duration-ms="2140" status="PASS">
+        <test-method is-config="true" signature="openHomePage()[pri:0, instance:TestNGPack.InstagramTestNGPack2@78aab498]" started-at="2023-02-17T11:25:16 IST" name="openHomePage" finished-at="2023-02-17T11:25:18 IST" duration-ms="1861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openHomePage -->
-        <test-method signature="verifyCookiesPolicy()[pri:2, instance:TestNGPack.InstagramTestNGPack2@769e7ee8]" started-at="2023-02-15T14:40:10 IST" name="verifyCookiesPolicy" finished-at="2023-02-15T14:40:20 IST" duration-ms="9682" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCookiesPolicy -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGPack.InstagramTestNGPack2@769e7ee8]" started-at="2023-02-15T14:40:20 IST" name="afterMethod" finished-at="2023-02-15T14:40:20 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGPack.InstagramTestNGPack2@78aab498]" started-at="2023-02-17T11:25:16 IST" name="afterMethod" finished-at="2023-02-17T11:25:16 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGPack.InstagramTestNGPack2@769e7ee8]" started-at="2023-02-15T14:40:20 IST" name="afterTest" finished-at="2023-02-15T14:40:20 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyCookiesPolicy()[pri:2, instance:TestNGPack.InstagramTestNGPack2@78aab498]" started-at="2023-02-17T11:25:18 IST" name="verifyCookiesPolicy" finished-at="2023-02-17T11:25:28 IST" duration-ms="9558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCookiesPolicy -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGPack.InstagramTestNGPack2@78aab498]" started-at="2023-02-17T11:25:28 IST" name="afterMethod" finished-at="2023-02-17T11:25:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNGPack.InstagramTestNGPack2@78aab498]" started-at="2023-02-17T11:25:28 IST" name="afterClass" finished-at="2023-02-17T11:25:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGPack.InstagramTestNGPack2@78aab498]" started-at="2023-02-17T11:25:28 IST" name="afterTest" finished-at="2023-02-17T11:25:28 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- TestNGPack.InstagramTestNGPack2 -->
     </test> <!-- chromeTest -->
-    <test started-at="2023-02-15T14:39:40 IST" name="FirefoxTest" finished-at="2023-02-15T14:40:28 IST" duration-ms="48087">
-      <class name="TestNGPack.InstagramTestNGPack2">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNGPack.InstagramTestNGPack2@1534f01b]" started-at="2023-02-15T14:39:40 IST" name="openBrowser" finished-at="2023-02-15T14:39:51 IST" duration-ms="10643" status="PASS">
+    <test started-at="2023-02-17T11:25:28 IST" name="FirefoxTest" finished-at="2023-02-17T11:26:10 IST" duration-ms="42348">
+      <class name="TestNGPack.InstagramTestNGPack1">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNGPack.InstagramTestNGPack1@79b06cab]" started-at="2023-02-17T11:25:28 IST" name="openBrowser" finished-at="2023-02-17T11:25:31 IST" duration-ms="3773" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,31 +162,130 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="openHomePage()[pri:0, instance:TestNGPack.InstagramTestNGPack2@1534f01b]" started-at="2023-02-15T14:39:51 IST" name="openHomePage" finished-at="2023-02-15T14:39:58 IST" duration-ms="6877" status="PASS">
+        <test-method is-config="true" signature="homePage()[pri:0, instance:TestNGPack.InstagramTestNGPack1@79b06cab]" started-at="2023-02-17T11:25:35 IST" name="homePage" finished-at="2023-02-17T11:25:39 IST" duration-ms="3510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method is-config="true" signature="openBrowser1()[pri:0, instance:TestNGPack.InstagramTestNGPack1@79b06cab]" started-at="2023-02-17T11:25:35 IST" name="openBrowser1" finished-at="2023-02-17T11:25:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser1 -->
+        <test-method signature="signUpLink()[pri:0, instance:TestNGPack.InstagramTestNGPack1@79b06cab]" started-at="2023-02-17T11:25:39 IST" name="signUpLink" finished-at="2023-02-17T11:25:49 IST" duration-ms="10580" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //p[@id='ssfErrorAlert']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN', ip: '192.168.0.100', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10744, moz:profile: C:\Users\SHEKHAR\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3ff8a5b2-39a2-47a0-85c3-317d872fa822
+*** Element info: {Using=xpath, value=//p[@id='ssfErrorAlert']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //p[@id='ssfErrorAlert']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN', ip: '192.168.0.100', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10744, moz:profile: C:\Users\SHEKHAR\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3ff8a5b2-39a2-47a0-85c3-317d872fa822
+*** Element info: {Using=xpath, value=//p[@id='ssfErrorAlert']}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getText(Unknown Source)
+at POMClasses.SignUpLinkPage.getErrorMessage(SignUpLinkPage.java:132)
+at TestNGPack.InstagramTestNGPack1.signUpLink(InstagramTestNGPack1.java:159)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpLink -->
+        <test-method is-config="true" signature="closeCurrentTab()[pri:0, instance:TestNGPack.InstagramTestNGPack1@79b06cab]" started-at="2023-02-17T11:25:49 IST" name="closeCurrentTab" finished-at="2023-02-17T11:25:49 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCurrentTab -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNGPack.InstagramTestNGPack1@79b06cab]" started-at="2023-02-17T11:25:49 IST" name="afterClass" finished-at="2023-02-17T11:25:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGPack.InstagramTestNGPack1@79b06cab]" started-at="2023-02-17T11:26:10 IST" name="afterTest" finished-at="2023-02-17T11:26:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGPack.InstagramTestNGPack1 -->
+      <class name="TestNGPack.InstagramTestNGPack2">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNGPack.InstagramTestNGPack2@3eb7fc54]" started-at="2023-02-17T11:25:31 IST" name="openBrowser" finished-at="2023-02-17T11:25:35 IST" duration-ms="3800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:TestNGPack.InstagramTestNGPack2@3eb7fc54]" started-at="2023-02-17T11:25:35 IST" name="BeforeClass" finished-at="2023-02-17T11:25:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="openHomePage()[pri:0, instance:TestNGPack.InstagramTestNGPack2@3eb7fc54]" started-at="2023-02-17T11:25:35 IST" name="openHomePage" finished-at="2023-02-17T11:25:38 IST" duration-ms="3300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openHomePage -->
-        <test-method signature="verifyTerms()[pri:0, instance:TestNGPack.InstagramTestNGPack2@1534f01b]" started-at="2023-02-15T14:39:58 IST" name="verifyTerms" finished-at="2023-02-15T14:40:16 IST" duration-ms="18183" status="PASS">
+        <test-method signature="verifyTerms()[pri:0, instance:TestNGPack.InstagramTestNGPack2@3eb7fc54]" started-at="2023-02-17T11:25:38 IST" name="verifyTerms" finished-at="2023-02-17T11:25:57 IST" duration-ms="18126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTerms -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGPack.InstagramTestNGPack2@1534f01b]" started-at="2023-02-15T14:40:16 IST" name="afterMethod" finished-at="2023-02-15T14:40:16 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGPack.InstagramTestNGPack2@3eb7fc54]" started-at="2023-02-17T11:25:57 IST" name="afterMethod" finished-at="2023-02-17T11:25:57 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="openHomePage()[pri:0, instance:TestNGPack.InstagramTestNGPack2@1534f01b]" started-at="2023-02-15T14:40:16 IST" name="openHomePage" finished-at="2023-02-15T14:40:18 IST" duration-ms="2770" status="PASS">
+        <test-method is-config="true" signature="openHomePage()[pri:0, instance:TestNGPack.InstagramTestNGPack2@3eb7fc54]" started-at="2023-02-17T11:25:57 IST" name="openHomePage" finished-at="2023-02-17T11:25:59 IST" duration-ms="2535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openHomePage -->
-        <test-method signature="verifyCookiesPolicy()[pri:2, instance:TestNGPack.InstagramTestNGPack2@1534f01b]" started-at="2023-02-15T14:40:18 IST" name="verifyCookiesPolicy" finished-at="2023-02-15T14:40:28 IST" duration-ms="9599" status="PASS">
+        <test-method signature="verifyCookiesPolicy()[pri:2, instance:TestNGPack.InstagramTestNGPack2@3eb7fc54]" started-at="2023-02-17T11:25:59 IST" name="verifyCookiesPolicy" finished-at="2023-02-17T11:26:10 IST" duration-ms="10804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCookiesPolicy -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGPack.InstagramTestNGPack2@1534f01b]" started-at="2023-02-15T14:40:28 IST" name="afterMethod" finished-at="2023-02-15T14:40:28 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGPack.InstagramTestNGPack2@3eb7fc54]" started-at="2023-02-17T11:26:10 IST" name="afterMethod" finished-at="2023-02-17T11:26:10 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGPack.InstagramTestNGPack2@1534f01b]" started-at="2023-02-15T14:40:28 IST" name="afterTest" finished-at="2023-02-15T14:40:28 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNGPack.InstagramTestNGPack2@3eb7fc54]" started-at="2023-02-17T11:26:10 IST" name="afterClass" finished-at="2023-02-17T11:26:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGPack.InstagramTestNGPack2@3eb7fc54]" started-at="2023-02-17T11:26:10 IST" name="afterTest" finished-at="2023-02-17T11:26:10 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

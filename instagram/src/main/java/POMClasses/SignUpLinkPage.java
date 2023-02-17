@@ -108,7 +108,7 @@ public class SignUpLinkPage {
 		signUpButton.click();
 	}
 	
-	public boolean SignUpButton()
+	public boolean SignUpButtonIsEnabled()
 	{
 		boolean signup=signUpButton.isEnabled();
 		return signup;		
@@ -127,9 +127,11 @@ public class SignUpLinkPage {
 		
 	}
 	
-	public void getErrorMessage()
+	public String getErrorMessage()
 	{
-		System.out.println(errorMessage.getText());
+		String e=errorMessage.getText();
+		//System.out.println(errorMessage.getText());
+		return e;
 	}
 	
 }

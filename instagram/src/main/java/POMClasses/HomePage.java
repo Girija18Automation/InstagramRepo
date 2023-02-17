@@ -54,7 +54,7 @@ public class HomePage {
 		logInButton.click();
 	}
 	
-	public boolean logInButton()
+	public boolean logInButtonIsEnabled()
 	{
 		boolean b=logInButton.isEnabled();
 		return b;
@@ -76,8 +76,11 @@ public class HomePage {
 	}
 
 	
-	public void getErrorMessage()
+	public String getErrorMessage()
 	{
-		System.out.println(errorMessage.getText());
+		String e=errorMessage.getText();
+		//System.out.println(errorMessage.getText());
+		return e;
+		
 	}
 }

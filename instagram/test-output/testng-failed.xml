@@ -1,19 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="8" parallel="tests" name="Failed suite [Suite1234]" guice-stage="DEVELOPMENT">
-  <test thread-count="8" parallel="tests" name="chromeTest(failed)">
+<suite thread-count="6" parallel="classes" name="Failed suite [Suite1234]" guice-stage="DEVELOPMENT">
+  <test thread-count="6" parallel="classes" name="chromeTest(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="TestNGPack.InstagramTestNGPack2">
+      <class name="TestNGPack.InstagramTestNGPack1">
         <methods>
-          <include name="afterMethod"/>
+          <include name="signUpLink"/>
+          <include name="afterClass"/>
           <include name="afterTest"/>
-          <include name="verifyCookiesPolicy"/>
+          <include name="closeCurrentTab"/>
           <include name="openBrowser"/>
-          <include name="openHomePage"/>
-          <include name="verifyTerms"/>
+          <include name="homePage"/>
+          <include name="openBrowser1"/>
         </methods>
-      </class> <!-- TestNGPack.InstagramTestNGPack2 -->
+      </class> <!-- TestNGPack.InstagramTestNGPack1 -->
     </classes>
   </test> <!-- chromeTest(failed) -->
+  <test thread-count="6" parallel="classes" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="TestNGPack.InstagramTestNGPack1">
+        <methods>
+          <include name="signUpLink"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="closeCurrentTab"/>
+          <include name="openBrowser"/>
+          <include name="homePage"/>
+          <include name="openBrowser1"/>
+        </methods>
+      </class> <!-- TestNGPack.InstagramTestNGPack1 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Suite1234] -->
